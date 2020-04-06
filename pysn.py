@@ -2,7 +2,7 @@ import serial
 import datetime
 ser = serial.Serial('/dev/ttyUSB0',115200)
 
-f = open('dataFile.txt','a')
+f = open('outputfile.txt','a')
 
 while 1 :
     f.write('\n')
